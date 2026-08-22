@@ -32,9 +32,9 @@ export function Waitlist() {
   return (
     <section className="section waitlist" id="waitlist">
       <div className="section-inner">
-        <h2 className="section-heading">Be first to talk</h2>
+        <h2 className="section-heading">Be first to cook</h2>
         <p className="section-lead">
-          Drop your email and we’ll nudge you when Ruchi is ready to chat.
+          Drop your email and we’ll nudge you when Ruchi is ready for the kitchen.
         </p>
         <form className="waitlist-form" onSubmit={handleSubmit} noValidate>
           <label className="sr-only" htmlFor="waitlist-email">

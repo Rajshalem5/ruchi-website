@@ -11,7 +11,20 @@ export function Footer() {
         <Link to="/delete-my-data">Delete My Data</Link>
         <Link to="/delete-my-account">Delete My Account</Link>
       </nav>
-      <p>© {year} Ruchi. Talk soon.</p>
+      <p className="footer-company">Ruchi is a product of Meta Mind Edutech</p>
+      <address className="footer-address">
+        50-50-8 TPT Colony, Seethammadhara
+        <br />
+        Visakhapatnam - 530013
+        <br />
+        Andhra Pradesh
+        <br />
+        India
+      </address>
+      <p className="footer-contact">
+        <a href="mailto:privacy@maaruchi.com">privacy@maaruchi.com</a>
+      </p>
+      <p>© {year} Ruchi. See you in the kitchen.</p>
     </footer>
   )
 }

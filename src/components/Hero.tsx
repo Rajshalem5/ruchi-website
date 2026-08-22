@@ -10,11 +10,11 @@ export function Hero() {
       <div className="hero-content">
         <p className="brand fade-up">Ruchi</p>
         <h1 className="hero-headline fade-up fade-up-delay-1">
-          Just talk. We&apos;ll listen.
+          Just talk. We&apos;ll cook.
         </h1>
         <p className="hero-sub fade-up fade-up-delay-2">
-          A playful voice companion for easygoing chats — no typing, no fuss,
-          just you and a friendly ear.
+          A voice-native cooking companion — recipes, next steps, and a friendly
+          ear while your hands stay busy.
         </p>
         <div className="hero-cta fade-up fade-up-delay-3">
           <a className="btn btn-primary" href="#waitlist">

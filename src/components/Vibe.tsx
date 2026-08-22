@@ -20,17 +20,17 @@ export function Vibe() {
   return (
     <section className="section vibe" id="vibe">
       <div className="section-inner">
-        <h2 className="section-heading">Made for easy conversations</h2>
+        <h2 className="section-heading">Made for the kitchen</h2>
         <p className="section-lead">
-          Soft, unhurried, and a little bit fun — like chatting with a friend who
-          always has time.
+          Soft, unhurried, and a little bit fun — like a friend who already knows
+          the recipe.
         </p>
         <div className="vibe-stage">
           <div className="vibe-mic">
             <MicIcon />
           </div>
           <p className="vibe-quote">
-            “Hey Ruchi…” and you’re already in the flow.
+            “Hey Ruchi, what’s next?” and you’re already back in the flow.
           </p>
         </div>
       </div>

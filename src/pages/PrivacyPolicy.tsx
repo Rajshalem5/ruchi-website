@@ -8,9 +8,10 @@ export function PrivacyPolicy() {
       <section className="legal-section">
         <h2>Introduction</h2>
         <p>
-          Ruchi (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) respects your
-          privacy. This Privacy Policy explains how we collect, use, store, and
-          protect your information when you use our website and services.
+          Ruchi is operated by Meta Mind Edutech (&quot;we,&quot; &quot;us,&quot;
+          or &quot;our&quot;). We respect your privacy. This Privacy Policy
+          explains how we collect, use, store, and protect your information when
+          you use our website and cooking assistant services.
         </p>
       </section>
 
@@ -27,8 +28,9 @@ export function PrivacyPolicy() {
             app, feature usage, and session information.
           </li>
           <li>
-            <strong>Voice and conversation data</strong> — audio and transcripts
-            from your interactions, processed to provide the service.
+            <strong>Voice and cooking session data</strong> — audio, transcripts,
+            recipes, and dietary preferences from your interactions, processed
+            to provide the service.
           </li>
           <li>
             <strong>Device and technical data</strong> — such as device type,
@@ -42,7 +44,10 @@ export function PrivacyPolicy() {
         <p>We use your information to:</p>
         <ul>
           <li>Provide, maintain, and improve the Ruchi service</li>
-          <li>Personalize your experience and respond to your requests</li>
+          <li>
+            Personalize your experience — including remembering likes,
+            restrictions, and how you cook — and respond to your requests
+          </li>
           <li>Send important service-related communications</li>
           <li>Monitor for abuse, fraud, and security issues</li>
           <li>Comply with legal obligations</li>
@@ -126,9 +131,20 @@ export function PrivacyPolicy() {
       <section className="legal-section">
         <h2>Contact Us</h2>
         <p>
-          If you have questions about this Privacy Policy or our data practices,
-          contact us at{' '}
+          Ruchi is operated by Meta Mind Edutech. If you have questions about
+          this Privacy Policy or our data practices, contact us at{' '}
           <a href="mailto:privacy@maaruchi.com">privacy@maaruchi.com</a>.
+        </p>
+        <p>
+          Meta Mind Edutech
+          <br />
+          50-50-8 TPT Colony, Seethammadhara
+          <br />
+          Visakhapatnam - 530013
+          <br />
+          Andhra Pradesh
+          <br />
+          India
         </p>
       </section>
     </PageLayout>

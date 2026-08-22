@@ -1,15 +1,15 @@
 const steps = [
   {
     title: 'Speak',
-    body: "Say whatever's on your mind — a thought, a question, or just a hello.",
+    body: 'Ask what’s for dinner, what’s in the fridge, or where you are in a recipe.',
   },
   {
     title: 'Understand',
-    body: 'Ruchi catches the vibe and the words, without making you overthink it.',
+    body: 'Ruchi follows the cook, not just the words — even when you’re mid-chop.',
   },
   {
     title: 'Reply',
-    body: 'Get a warm, natural voice reply that keeps the conversation flowing.',
+    body: 'Get the next step, a substitution, or a timer — spoken back, hands-free.',
   },
 ]
 
@@ -19,7 +19,8 @@ export function HowItWorks() {
       <div className="section-inner">
         <h2 className="section-heading">How it works</h2>
         <p className="section-lead">
-          Three easy beats. Open up, talk it out, and hear Ruchi talk back.
+          Three easy beats. Ask out loud, cook along, and hear Ruchi talk you
+          through it.
         </p>
         <ol className="steps">
           {steps.map((step, i) => (
