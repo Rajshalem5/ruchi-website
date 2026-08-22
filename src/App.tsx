@@ -1,18 +1,17 @@
-import { Footer } from './components/Footer'
-import { Hero } from './components/Hero'
-import { HowItWorks } from './components/HowItWorks'
-import { Vibe } from './components/Vibe'
-import { Waitlist } from './components/Waitlist'
+import { Route, Routes } from 'react-router-dom'
+import { DeleteMyAccount } from './pages/DeleteMyAccount'
+import { DeleteMyData } from './pages/DeleteMyData'
+import { Home } from './pages/Home'
+import { PrivacyPolicy } from './pages/PrivacyPolicy'
 
 function App() {
   return (
-    <>
-      <Hero />
-      <HowItWorks />
-      <Vibe />
-      <Waitlist />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/delete-my-data" element={<DeleteMyData />} />
+      <Route path="/delete-my-account" element={<DeleteMyAccount />} />
+    </Routes>
   )
 }
 
